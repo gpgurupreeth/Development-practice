@@ -1,0 +1,20 @@
+
+        .club1-format {
+            display: flex;
+            flex-direction: row;
+            border: 1px;
+            border-style: solid;
+            border-color: gray;
+
+            max-width: fit-content;
+            vertical-align: top;
+        }
+
+        .clubs-format {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 45px;
+            column-gap: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
