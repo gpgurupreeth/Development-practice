@@ -1,0 +1,36 @@
+ .sidebar-link {
+
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 3px;
+        }
+
+        .side-bar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            position: fixed;
+            top: 60px;
+            bottom: 0px;
+            border-right-style: solid;
+            border-right-color: lightgray;
+            border-right-width: 1px;
+            padding-left: 10px;
+            width: 75px;
+            padding-top: 22px;
+            padding-bottom: 12px;
+        }
+
+        .side-bar-icon {
+            width: 25px;
+        }
+
+        .side-bar-icon:hover {
+            background-color: lightgray;
+            transition: 0.39ms;
+        }
